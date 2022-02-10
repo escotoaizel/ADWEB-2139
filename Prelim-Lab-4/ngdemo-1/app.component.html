@@ -1,0 +1,37 @@
+<!-- Escoto, Aizel Marie L. -->
+<!-- WD - 302 -->
+
+<!--One-way Data Binding (Interpolation)-->
+<h2>Interpolation</h2>
+
+<!--String and Number Binding-->
+<p>Message:  Hello! Welcome to {{topic}} {{tutorial}}.</p>
+
+<!-- Property Binding -->
+<p>Hi! My name is</p>
+<input type="text" [value] = "studname">
+
+<!-- Style Binding -->
+<p [style.color]="myColor">Text color is styled using Style Binding.</p>
+
+<!--Class Binding-->
+<p [class]="appliedCSSClass">This text is styled using Style Binding.</p>
+<p [class.blue]="notappliedCSSClass">No Style binding applied in this line.</p>
+
+<!--Two-way Data Binding-->
+
+<!--Event Binding-->
+<h2>Event Binding</h2>
+<button (click)="showData($event)">Click this button!</button>
+<br><br>
+<button on-click="showData($event)">Click me too!</button>
+
+<!--Actions-->
+<h3>Using Keyup, Input, Keydown, and Blur Box</h3>
+Keyup : <input type="text" #keyupbox placeholder="keyup box" (keyup)= "getData(keyupbox.value)"/>
+<br><br>
+Input : <input type=text #keyinputbox placeholder="input box" (input)= "getData(keyinputbox.value)"/>
+<br><br>
+Keydown : <input type=text #keydownbox placeholder="keydown box" (keydown)= "getData(keydownbox.value)"/>
+<br><br>
+Blur : <input type=text #keyblurbox placeholder="blur box" (blur)= "getData(keyblurbox.value)"/>
