@@ -1,0 +1,23 @@
+<!--Two Way Data Binding-->
+<html>
+<body>
+
+  <h4 class="form">Fill the form below</h4>
+  <form>
+  <label for="firstname">First name:</label>
+  <input type="text" [(ngModel)]="Firstname" name="firstname" placeholder="First Name">
+  <label for="lastname">  Last name:</label>
+  <input type="text" [(ngModel)]="Lastname" name="lastname" placeholder="Last Name">
+  <br><p>Fullname: <b>{{Firstname}} {{Lastname}}</b></p>
+
+  <label for="email">Enter Email Address:</label>
+  <input type="text" [(ngModel)]="Email" name="email" placeholder="Email Address">
+  <br><p>Email Address: <b>{{Email}}</b></p>
+
+  <label for="affiliation">Enter institution/Affiliaction:</label>
+  <input type="text" [(ngModel)]="School" name="affiliation" placeholder="Affiliation">
+  <br><p>Academic Institution: <b>{{School}}</b></p>
+
+</form>
+</body>
+</html>
