@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.adweb h3{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.adweb p{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.adweb{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: rgb(151, 198, 105);
+}
+.cloudbg h3{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.cloudbg{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: rgb(119, 205, 206);
+}
+.cloud p{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.app h3{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.app p{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.appbg{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: rgb(238, 145, 83);
+}
+.webdev h3{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.webdev p{
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+.webdev{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: rgb(187, 152, 221);
+}
+

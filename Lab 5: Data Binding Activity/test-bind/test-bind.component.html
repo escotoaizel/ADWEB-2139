@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body> 
+<br>
+  <h1>GradeBook</h1>
+  <hr>
+  
+<!--ADWEB-->
+<div id="adweb"></div>
+<div class="adwebbg">
+<br>
+<div class="adweb">
+    <h3 style="color: black;">ADVANCED DYNAMIC WEB APPLICATIONS</h3><br>
+    <p>Enter Student Name <input type="text" [(ngModel)]="studName1" class="form-control" placeholder="Last Name, First Name M.I."/></p>
+    <p>Enter Student Number <input type="number" [(ngModel)]="studNum1" class="form-control"/></p>
+    <p>Enter Prelim Grade <input type="number" [(ngModel)]="prelim1" class="form-control" placeholder="Prelim" /></p>
+    <p>Enter Midterm Grade <input type="number" [(ngModel)]="midterm1" class="form-control" placeholder="Midterm" /></p>
+    <p>Enter Final Grade <input type="number" [(ngModel)]="final1" class="form-control" placeholder="Final" /></p>
+    <p>Student Name : {{studName1}}</p>
+    <p>Student Numer : {{studNum1}}</p>
+    <p>Prelim Grade : {{prelim1}}</p>
+    <p>Midterm Grade : {{midterm1}}</p>
+    <p>Final Grade : {{final1}}</p>
+    <p style="text-align: center; color: black;">Hello, {{studName1}}! Your average grade on 6ADWEB is {{(prelim1 + midterm1 + final1) / 3}}</p>
+</div>
+<br><br>
+</div>
+<hr><br>
+
+<!--CLOUDCOMP-->
+<div id="cloudcomp"></div>
+<div class="cloudbg">
+<div class="cloud">
+    <h3 style="text-align: center;">CLOUD COMPUTING</h3><br>
+    <p>Enter Student Name <input type="text" [(ngModel)]="studName2" class="form-control" placeholder="Last Name, First Name M.I."/></p>
+    <p>Enter Student Number <input type="number" [(ngModel)]="studNum2" class="form-control"/></p>
+    <p>Enter Prelim Grade <input type="number" [(ngModel)]="prelim2" class="form-control" placeholder="Prelim" /></p>
+    <p>Enter Midterm Grade <input type="number" [(ngModel)]="midterm2" class="form-control" placeholder="Midterm" /></p>
+    <p>Enter Final Grade <input type="number" [(ngModel)]="final2" class="form-control" placeholder="Final" /></p>
+    <p>Student Name : {{studName2}}</p>
+    <p>Student Numer : {{studNum2}}</p>
+    <p>Prelim Grade : {{prelim2}}</p>
+    <p>Midterm Grade : {{midterm2}}</p>
+    <p>Final Grade : {{final2}}</p>
+    <p style="font-weight: bold; text-align: center;">Hello, {{studName2}}! Your average grade on 6CLOUDCOMP is {{(prelim2 + midterm2 + final2) / 3}}</p>
+</div>
+<br><br>
+</div>
+<hr><br>
+
+<!--APPDEV-->
+<div id="appdev"></div>
+<div class="appbg">
+<div class="app">
+    <h3 style="text-align: center;">APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES</h3><br>
+    <p>Enter Student Name <input type="text" [(ngModel)]="studName3" class="form-control" placeholder="Last Name, First Name M.I."/></p>
+    <p>Enter Student Number <input type="number" [(ngModel)]="studNum3" class="form-control"/></p>
+    <p>Enter Prelim Grade <input type="number" [(ngModel)]="prelim3" class="form-control" placeholder="Prelim" /></p>
+    <p>Enter Midterm Grade <input type="number" [(ngModel)]="midterm3" class="form-control" placeholder="Midterm" /></p>
+    <p>Enter Final Grade <input type="number" [(ngModel)]="final3" class="form-control" placeholder="Final" /></p>
+    <p>Student Name : {{studName3}}</p>
+    <p>Student Numer : {{studNum3}}</p>
+    <p>Prelim Grade : {{prelim3}}</p>
+    <p>Midterm Grade : {{midterm3}}</p>
+    <p>Final Grade : {{final3}}</p>
+    <p style="text-align: center;">Hello, {{studName3}}! Your average grade on 6APPDEV is {{(prelim3 + midterm3 + final3) / 3}}</p>
+</div>
+<br><br>
+</div>
+<hr><br>
+
+<!--WEBDEVFOL-->
+<div id="webdev"></div>
+<div class="webdevbg">
+<br><br>
+<div class="webdev">
+    <h3 style="text-align: center;">WEB DEVELOPMENT PORTFOLIO</h3><br>
+    <p>Enter Student Name <input type="text" [(ngModel)]="studName4" class="form-control" placeholder="Last Name, First Name M.I."/></p>
+    <p>Enter Student Number <input type="number" [(ngModel)]="studNum4" class="form-control"/></p>
+    <p>Enter Prelim Grade <input type="number" [(ngModel)]="prelim4" class="form-control" placeholder="Prelim" /></p>
+    <p>Enter Midterm Grade <input type="number" [(ngModel)]="midterm4" class="form-control" placeholder="Midterm" /></p>
+    <p>Enter Final Grade <input type="number" [(ngModel)]="final4" class="form-control" placeholder="Final" /></p>
+    <p>Student Name : {{studName4}}</p>
+    <p>Student Numer : {{studNum4}}</p>
+    <p>Prelim Grade : {{prelim4}}</p>
+    <p>Midterm Grade : {{midterm4}}</p>
+    <p>Final Grade : {{final4}}</p>
+    <p style="text-align: center; color: black;">Hello, {{studName4}}! Your average grade on 6WEBDEVFOL is {{(prelim4 + midterm4 + final4) / 3}}</p>
+</div>
+<br><br>
+</div>
