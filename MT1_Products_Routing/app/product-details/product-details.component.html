@@ -1,0 +1,30 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+</style>
+<body style="background-color: black; height: 100vh;">  
+    <div class="details"><br><br><br><br>
+        <h2>Product Details</h2><br><br>
+    </div>
+    <table>
+    <thead>
+        <tr>
+          <th scope="col">Product ID</th>
+          <th scope="col">Product</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let i of Products">
+          <td>{{i.id}}</td>
+          <td><img id="image" [src]="i.image"/> </td>
+          <td> {{i.name}} </td>
+          <td> {{i.description}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+</body>

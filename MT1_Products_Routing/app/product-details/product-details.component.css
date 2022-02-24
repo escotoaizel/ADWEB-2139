@@ -1,0 +1,36 @@
+.details h2{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+#image{
+    height: 100px;
+}
+table{
+    font-family: 'Shippori Antique B1', sans-serif;
+    width: 100%; 
+    margin-top: 13px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+#header{
+    font-size: 50px;
+}
+
+tbody{
+    vertical-align: middle; 
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-family: Roboto;
+}
+thead{
+    vertical-align: middle; 
+    margin-top: 90px;
+    text-align: center;
+    color: #ffffff;
+}
+td {
+    padding: 15px;
+    border: 1px solid white;
+}

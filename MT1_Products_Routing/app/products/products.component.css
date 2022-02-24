@@ -1,0 +1,325 @@
+.notebook button {
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.notebook h1{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+}
+.notebook h4{
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: Roboto;
+    color: black;
+}
+.notebook p{
+    text-align: center;
+    margin-left: 75px;
+    font-family: Roboto;
+    color: black;
+}
+.notebook td{
+    height: 100px;
+}
+.notebook td img{
+    height: 150px;
+    margin-top: 78px;
+    margin-left: 85px;
+}
+.btn1{
+    text-align: center;
+    margin-left: 75px;
+}
+.btn2{
+    text-align: center;
+    margin-left: 85px;
+}
+.btn3{
+    text-align: center;
+    margin-left: 85px;
+}
+.desktop td img{
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 305px;
+}
+.desktop td{
+    height: 100px;
+}
+.desktop h4{
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 10px;
+    font-family: Roboto;
+    color: black;
+}
+.desktop p{
+    text-align: center;
+    margin-left: 310px;
+    font-family: Roboto;
+    color: black;
+}
+.desktop button {
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn4{
+    text-align: center;
+    margin-left: 320px;
+}
+.btn5{
+    text-align: center;
+    margin-left: 300px;
+}
+.iphone h1{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+}
+.iphone td img{
+    height: 260px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.iphone button{
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.iphone h4{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: black;
+}
+.iphone h5{
+    text-align: center;
+    margin-left: 150px;
+    font-family: Roboto;
+    color: black;
+}
+.iphone p{
+    text-align: center;
+    margin-left: 120px;
+    font-family: Roboto;
+    color: black;
+}
+.btn6{
+    text-align: center;
+    margin-left: 130px;
+}
+.btn7{
+    text-align: center;
+    margin-left: 130px;
+}
+.btn8{
+    text-align: center;
+    margin-left: 130px;
+}
+.btn9{
+    text-align: center;
+    margin-left: 130px;
+}
+.ipad button{
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ipad h1{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+}
+.ipad h4{
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: black;
+}
+.ipad h5{
+    text-align: center;
+    margin-left: 135px;
+    font-family: Roboto;
+    color: black;
+}
+.ipad p{
+    text-align: center;
+    margin-left: 120px;
+    font-family: Roboto;
+    color: black;
+}
+.ipad td img{
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.appwatch h1{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+}
+.appwatch button{
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.appwatch td img{
+    height: 200px;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.appwatch p{
+    text-align: center;
+    margin-left: 165px;
+    font-family: Roboto;
+    color: black;
+}
+.appwatch h4{
+    text-align: center;
+    margin-left: 165px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: black;
+}
+.airpods button{
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.airpods td img{
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.airpods h1{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+    margin-top: 40px;
+}
+.airpods p{
+    text-align: center;
+    margin-left: 165px;
+    font-family: Roboto;
+    color: black;
+}
+.airpods h4{
+    text-align: center;
+    margin-left: 165px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: black;
+}
+.btn14{
+    text-align: center;
+    margin-left: 130px;
+}
+.btn15{
+    text-align: center;
+    margin-left: 180px;
+}
+.btn16{
+    text-align: center;
+    margin-left: 180px;
+}
+.btn17{
+    text-align: center;
+    margin-left: 130px;
+}
+.btn18{
+    text-align: center;
+    margin-left: 180px;
+}
+.btn19{
+    text-align: center;
+    margin-left: 180px;
+}
+.btn20{
+    text-align: center;
+    margin-left: 180px;
+}
+.head img{
+    margin-top: 70px;
+    margin-left: 45%;
+}
+.head h1{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(33, 31, 31);
+}
+.head h5{
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: bold;
+    color: rgb(33, 31, 31);
+}
+.head button{
+    background-color: #1563b6; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn21{
+    margin-left: 48%;
+    margin-top: 30px;
+}
+.tv img{
+    margin-top: 40px;
+    margin-left: 250px;
+}

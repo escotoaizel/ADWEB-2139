@@ -1,0 +1,53 @@
+.supp h5{
+    font-family: quicksand;
+    font-weight: bold;
+    margin-left: 170px;
+}
+.supp h1{
+    font-family: Quicksand;
+    color: black;
+    margin-left: 170px;
+    font-weight: bold;
+}
+.supp img{
+    width: 100%;
+    margin-top: -180px;
+}
+.text h2{
+    font-family: quicksand;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+input{
+    width: 900px;
+    height: 50px;
+    margin-left: 190px;
+    border-radius: 10px;
+    border-color: rgb(223, 221, 216);
+    font-family: quicksand;
+    font-weight: bold;
+}
+.icon img{
+    margin-top: 90px;
+}
+table{
+    margin-left: 190px;
+}
+td{
+    padding-right: 250px;
+}
+.icon h4{
+    font-family: Roboto;
+}
+.icon p{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 15px;
+}
