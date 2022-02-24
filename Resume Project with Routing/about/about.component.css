@@ -1,0 +1,58 @@
+h2{
+    text-align: center;
+    margin-top: -210px;
+    margin-left: 190px;
+    font-size: 80px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 190px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.pic img{
+    border: 2px solid #555;
+    border-color: rgb(242, 242, 242);
+    border-radius: 50%;
+    margin-top: -220px;
+    margin-left: 230px;
+    width: 170px;
+    height: 170px;
+}
+.rectangle{
+    background-color: rgb(146, 198, 237);
+    height: 200px;
+    width: 1350px;
+}
+.title h5{
+    text-align: center;
+    color: black;
+    font-family: Oswald;
+    font-size: 30px;
+}
+.about{
+    text-align: left;
+    margin-left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.about2{
+    text-align: left;
+    margin-left: 780px;
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.rectangle2{
+    background-color: rgb(146, 198, 237);
+    height: 50px;
+    width: 1350px;
+    margin-top: 30px;
+}

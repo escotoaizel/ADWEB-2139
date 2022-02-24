@@ -1,0 +1,29 @@
+.title h5{
+    text-align: center;
+    color: black;
+    font-family: Oswald;
+    font-size: 30px;
+}
+table{
+    margin-left: 220px;
+}
+.educ td{
+    border: 1px solid rgb(148, 146, 146);
+}
+ul{
+    margin-right: 15px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.tech h6{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(65, 130, 153);
+}
+.rectangle{
+    background-color: rgb(146, 198, 237);
+    height: 50px;
+    width: 1350px;
+    margin-top: 82px;
+}

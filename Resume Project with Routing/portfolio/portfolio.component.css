@@ -1,0 +1,36 @@
+.title h5{
+    text-align: center;
+    color: black;
+    font-family: Oswald;
+    font-size: 30px;
+}
+.tb td img{
+    width: 350px;
+    margin-left: 40px;
+    border-radius: 18px;
+    padding: 3%;
+}
+p{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.tb td{
+    height: 200px;
+}
+.tb tr{
+    border: 1px solid rgb(148, 146, 146);
+}
+h6{
+    margin-left: 10%;
+    margin-top: 20px;
+    color: rgb(74, 147, 174);
+}
+.rectangle{
+    background-color: rgb(146, 198, 237);
+    height: 50px;
+    width: 1350px;
+    margin-top: 20px;
+}
